@@ -1,0 +1,32 @@
+.main-services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+
+.free-shipping{
+    display: flex;
+    gap: 12px;
+}
+.shipping-text{
+color: black;
+padding: 2px;
+}
+.shipping-text h3{
+margin-bottom: 10px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+}
+.shipping-text span{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #828282;
+
+}

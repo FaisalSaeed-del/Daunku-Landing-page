@@ -1,0 +1,72 @@
+.care-top{
+    margin-top: 95px;
+}
+.care-measurements{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+}
+.care-heading{
+        padding-left: 30px;
+}
+.care-heading h1{
+    width: 452px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+margin-bottom: 20px;
+
+/* font */
+
+color: #081323;
+}
+.care-heading span{
+    width: 447px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* Gray 2 */
+    
+    color: #4F4F4F;
+}
+
+.care-outlines{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.care-text h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    
+    width: 235px;
+    color: #000000;
+}
+.care-text p{
+    width: 493px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+
+    
+    color: #4F4F4F;
+}
+
+.care-items{
+    margin-top: 50px;
+}

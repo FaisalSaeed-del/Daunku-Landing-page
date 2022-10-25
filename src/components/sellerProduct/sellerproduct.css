@@ -1,0 +1,106 @@
+.main-products{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+.products{
+    width: 329px;
+    background: #C1D0E4;
+    border-radius: 50px;
+}
+
+.products-design{
+padding:50px;
+gap: 8px;
+width: 330px;
+background: #FFFFFF;
+border-radius: 50px;
+height: 238px;
+}
+.products-desig2,.products-desig3{
+    padding:50px;
+    gap: 8px;
+    width: 330px;
+    height: 250px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+.products-desig3{
+    padding:50px;
+    gap: 8px;
+    width: 330px;
+    height: 250px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+.product-collection{
+    display: flex;
+    gap: 30px;
+    padding-top:24px ;
+    flex-wrap: wrap;
+
+}
+.product-text{
+    margin-top: 150px;
+}
+.product-text h2{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+width: 363px;
+}
+.product-text span{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #4F4F4F;
+}
+
+.iconss{
+    font-size: 30px;
+    /* margin-top: 10px; */
+    display: flex;
+    gap: 14px;
+}
+
+.product-img{
+    position: relative;
+    bottom: 130px;
+}
+.products-desc{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    }
+.products-price{
+display: flex;
+justify-content: space-between;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+padding-top: 20px;
+}
+.star-icons{
+    font-size: 20px;
+    color: #F2C94C;
+}
+.product-plus{
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    text-align: center;
+}

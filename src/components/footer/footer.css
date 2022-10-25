@@ -1,0 +1,109 @@
+.main-footer {
+  height: 546px;
+  background: linear-gradient(93.99deg, #566270 0.51%, #283444 100%);
+}
+.footer-letter h2 {
+  width: 256px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.footer-letter input {
+  padding: 24px 30px;
+  gap: 8px;
+  width: 463px;
+  height: 71px;
+
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffffff;
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 50px;
+}
+
+.footer-letter button {
+  width: 145px;
+  height: 47px;
+  background: linear-gradient(90deg, #2af598 0%, #009efd 100%);
+  border-radius: 50px;
+  border: none;
+  position: relative;
+  right: 25%;
+}
+.footer-btn {
+  font-family: "Work Sans";
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+.footer-links {
+  display: flex;
+  gap: 80px;
+}
+.footer-menu h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  /* identical to box height, or 34px */
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.footer-support a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  padding: 4px;
+  font-size: 16px;
+}
+.footer-para {
+  width: 340px;
+  height: 50px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.8235px;
+  line-height: 150%;
+  /* or 25px */
+
+  color: #ffffff;
+}
+
+.footer-border {
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  max-width: 1500px;
+  margin-left: 90px;
+  margin-top: 35px;
+}
+.footer-copyright p {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}

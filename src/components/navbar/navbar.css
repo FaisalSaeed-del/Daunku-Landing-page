@@ -1,0 +1,116 @@
+.bg-image{
+    background-image: url(../../assets/images/bg-img.png);
+    height: 1410px;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.logo{
+display: flex;
+gap: 3px;
+}
+.text{
+    padding: 5px;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.main-nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+   
+
+}
+.nav-items ul li a{
+ color: white;
+ text-decoration: none;
+ padding: 20px;
+}
+
+.shopping-cart{
+    margin-top: 10px;
+}
+
+
+/* *****************    Hero Section Styling */
+
+.Hero-Heading h2{
+font-family: 'Work Sans';
+font-weight: 700;
+text-align: center;
+color: #FFFFFF;
+padding: 35px;
+font-size: 82px;
+line-height: 96px;
+}
+
+
+.Hero-para{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #FFFFFF;
+text-align: center;
+}
+
+
+.search-box input{
+
+width: 463px;
+height: 50px;
+padding: 24px 30px;
+gap: 8px;
+background: rgba(255, 255, 255, 0.2);
+border: 1px solid #FFFFFF;
+backdrop-filter: blur(10px);
+border-radius: 50px;
+
+}
+.search-box {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    position: relative;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+  }
+.icons{
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    position: absolute;
+    font-size: 30px;
+    right: 37%;
+    top: 27%;
+    color: white;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 50%;
+}
+
