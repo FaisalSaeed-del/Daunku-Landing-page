@@ -1,5 +1,5 @@
 .main-footer {
-  height: 546px;
+  /* height: 546px; */
   background: linear-gradient(93.99deg, #566270 0.51%, #283444 100%);
 }
 .footer-letter h2 {
@@ -46,6 +46,7 @@
 
 .footer-items {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding-top: 150px;
 }
@@ -106,4 +107,20 @@
   line-height: 28px;
 
   color: #ffffff;
+}
+
+/* media querries */
+@media screen and (max-width: 1300px) {
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-letter input {
+    max-width: 300px;
+  }
+  .footer-letter button {
+    width: 100px;
+    right: 26%;
+  }
 }
