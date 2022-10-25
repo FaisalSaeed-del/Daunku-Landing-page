@@ -81,4 +81,7 @@
   .care-heading {
     text-align: center;
   }
+  .care-img img {
+    width: 100%;
+  }
 }

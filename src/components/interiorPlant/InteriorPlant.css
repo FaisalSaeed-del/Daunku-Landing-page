@@ -50,4 +50,7 @@
     flex-wrap: wrap;
     text-align: center;
   }
+  .interior-item img {
+    width: 100%;
+  }
 }

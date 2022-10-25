@@ -66,7 +66,7 @@ const Careplant = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="care-img">
               <img src={pic4} alt="" />
             </div>
           </div>
