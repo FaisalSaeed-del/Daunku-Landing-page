@@ -1,7 +1,8 @@
 .bg-image {
   background-image: url(../../assets/images/bg-img.png);
   height: 1410px;
-  width: 100%;
+
+  /* width: 100%; */
   background-repeat: no-repeat;
 }
 .logo {
@@ -24,6 +25,7 @@
 
 .nav-items ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin-top: 15px;
   font-weight: 500;
@@ -111,5 +113,19 @@
     padding: 0;
     margin: 0;
     object-fit: cover;
+  }
+  .search-box input {
+    max-width: 300px;
+  }
+  .icons {
+    right: 20%;
+  }
+  .Hero-Heading h2 {
+    font-size: 40px;
+  }
+  .Hero-para {
+    width: 400px;
+    margin: auto;
+    font-size: 15px;
   }
 }

@@ -32,9 +32,17 @@
 
 @media screen and (max-width: 1032px) {
   .main-services {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     gap: 20px;
-    margin-left: 200px;
+  }
+  .shipping-text h3 {
+    font-size: 20px;
+  }
+  .shipping-text span {
+    font-size: 15px;
+  }
+  .free-shipping img {
+    width: 30px;
   }
 }

@@ -15,7 +15,7 @@
 .products-design {
   padding: 50px;
   gap: 8px;
-  width: 330px;
+  max-width: 330px;
   background: #ffffff;
   border-radius: 50px;
   height: 238px;
@@ -98,10 +98,11 @@
 }
 
 /* media Queries */
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1120px) {
   .main-products {
     display: flex;
     flex-direction: column;
+    margin-top: 0;
   }
   .product-collection {
     margin-top: 100px;
@@ -110,12 +111,11 @@
     padding-left: 20px; */
     display: flex;
   }
-  .product-text {
-    align-items: center;
+  .product-text h2 {
     font-size: 32px;
-    margin-left: 40%;
   }
   .products {
     margin: 10px;
+    width: 300px;
   }
 }

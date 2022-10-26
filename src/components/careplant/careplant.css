@@ -10,8 +10,7 @@
   padding-left: 30px;
 }
 .care-heading h1 {
-  width: 452px;
-
+  max-width: 452px;
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 500;
@@ -43,18 +42,17 @@
   margin-bottom: 30px;
 }
 .care-text h3 {
+  max-width: 235px;
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 38px;
   /* identical to box height */
-
-  width: 235px;
   color: #000000;
 }
 .care-text p {
-  width: 493px;
+  max-width: 493px;
 
   font-family: "Work Sans";
   font-style: normal;
@@ -67,6 +65,10 @@
 
 .care-items {
   margin-top: 50px;
+}
+
+.care-outlines img {
+  max-width: 50px;
 }
 
 /* media Queries */
@@ -83,5 +85,23 @@
   }
   .care-img img {
     width: 100%;
+  }
+  .care-heading h1 {
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 600;
+  }
+  .care-heading span {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .care-text h3 {
+    font-size: 20px;
+  }
+  .care-text p {
+    font-size: 15px;
+  }
+  .care-outlines img {
+    width: 30px;
   }
 }

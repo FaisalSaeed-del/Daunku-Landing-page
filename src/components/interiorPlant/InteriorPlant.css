@@ -1,6 +1,8 @@
 .interior-text {
   text-align: center;
+  margin-top: 60px;
 }
+
 .interior-text h3 {
   font-family: "Work Sans";
   font-style: normal;
@@ -12,7 +14,7 @@
   /* font */
 
   color: #081323;
-  margin-bottom: 27px;
+  align-items: center;
 }
 
 .interior-text p {
@@ -21,6 +23,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+  text-align: center;
 
   /* Gray 2 */
 
@@ -51,6 +54,13 @@
     text-align: center;
   }
   .interior-item img {
-    width: 100%;
+    width: 80%;
+  }
+  .interior-text h3 {
+    font-size: 32px;
+    line-height: 2;
+  }
+  .interior-text p {
+    font-size: 20px;
   }
 }
